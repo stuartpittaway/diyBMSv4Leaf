@@ -4,8 +4,8 @@
 
   (title_block
     (title "diyBMSv4 - LEAF")
-    (date "2021-03-07")
-    (rev "2.00")
+    (date "2021-03-10")
+    (rev "2.01")
     (company "Joho Technology Inc")
   )
 
@@ -647,7 +647,7 @@
     (uuid 5bfdb6cc-dcd8-403f-895a-5bc04ccd894d)
   )
 
-  (text "The Leaf cell is 2s2P with 3 connection terminals,  +ve  common -ve\nVoltage on one pack is measured between the -ve terminal and\ncommon. The voltage on the second pack measures between he +ve\nterminal and common.\nFor schematic and layout purposes there are uniquely names VCC\nlines and GND lines for the separated BMS circuits.\nYES... confusing\n\nEach BMS is has its own supply:\n +ve terminal - common  (common is negative)\n -ve terminal - common ( common is positive)"
+  (text "The Leaf cell is 2s2P with 3 connection terminals,  +ve  common -ve\nVoltage on one pack is measured between the -ve terminal and\ncommon. The voltage on the second pack measures between the +ve\nterminal and common.\n\nEach BMS is has its own supply:\n +ve terminal - common  (common is negative)\n -ve terminal - common ( common is positive)"
     (at 26.924 193.675 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 03ee2195-d495-4fcf-bf2c-61d70c603b4e)
@@ -680,7 +680,7 @@
     (effects (font (size 5.08 5.08)) (justify left bottom))
     (uuid bf8aa107-b1de-49a9-b668-2d6bb561d052)
   )
-  (text "::::NOTE::::\nOnce the 2pin and 4 pin connectors\nare soldered trim the legs as flush with the\nsolder as possible,"
+  (text "::::NOTE::::\nOnce the 2pin connectors\nare soldered trim the legs as flush with the\nsolder as possible."
     (at 205.232 101.854 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 211a4c84-969e-4480-81a5-9b40b6f3bad0)
@@ -860,7 +860,7 @@
   (symbol (lib_id "diyBMS-Leaf-rescue:R-Device") (at 80.772 78.74 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005df39b25)
-    (property "Reference" "R105" (id 0) (at 80.772 73.4822 90))
+    (property "Reference" "R121" (id 0) (at 80.772 73.482 90))
     (property "Value" "220" (id 1) (at 80.772 75.7936 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 80.772 76.962 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -878,7 +878,7 @@
   (symbol (lib_id "diyBMS-Leaf-rescue:R-Device") (at 132.334 55.626 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005df39b48)
-    (property "Reference" "R116" (id 0) (at 137.592 55.626 90))
+    (property "Reference" "R122" (id 0) (at 137.592 55.626 90))
     (property "Value" "4K7" (id 1) (at 135.2804 55.626 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 134.112 55.626 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -902,7 +902,7 @@
   (symbol (lib_id "diyBMS-Leaf-rescue:R-Device") (at 168.91 46.355 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c6e1d66f-3a84-48f5-906d-dcb1111d9ee3)
-    (property "Reference" "R205" (id 0) (at 168.91 41.097 90))
+    (property "Reference" "R221" (id 0) (at 168.91 41.097 90))
     (property "Value" "220" (id 1) (at 168.91 43.4086 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 168.91 44.577 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -920,7 +920,7 @@
   (symbol (lib_id "diyBMS-Leaf-rescue:R-Device") (at 191.135 94.615 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b524e844-dfc6-4707-a8cb-30fd75c5194b)
-    (property "Reference" "R216" (id 0) (at 196.393 94.615 90))
+    (property "Reference" "R222" (id 0) (at 196.393 94.615 90))
     (property "Value" "4K7" (id 1) (at 194.0814 94.615 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 192.913 94.615 90)
       (effects (font (size 1.27 1.27)) hide)

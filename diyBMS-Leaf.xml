@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\allan\Dropbox\NZ\BMS\diyBMSv4Leaf-master\diyBMS-Leaf.kicad_sch</source>
-    <date>2021.03.07 12:08:34 PM</date>
+    <source>C:\Users\allan\Dropbox\NZ\BMS\clean\diyBMS-Leaf.kicad_sch</source>
+    <date>2021.03.10 6:42:59 PM</date>
     <tool>Eeschema (5.99.0-8941-ge2f8b1a4b1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>diyBMSv4 - LEAF</title>
         <company>Joho Technology Inc</company>
-        <rev>2.00</rev>
-        <date>2021-03-07</date>
+        <rev>2.01</rev>
+        <date>2021-03-10</date>
         <source>diyBMS-Leaf.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>diyBMSv4 - LEAF</title>
         <company>Joho Technology Inc</company>
-        <rev>2.00</rev>
-        <date>2021-03-07</date>
+        <rev>2.01</rev>
+        <date>2021-03-10</date>
         <source>diyBMSv4-Leaf_pos.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>diyBMSv4 - LEAF</title>
         <company>Joho Technology Inc</company>
-        <rev>2.00</rev>
-        <date>2021-03-07</date>
+        <rev>2.01</rev>
+        <date>2021-03-10</date>
         <source>file5DF129FA.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>diyBMSv4 - LEAF</title>
         <company>Joho Technology Inc</company>
-        <rev>2.00</rev>
-        <date>2021-03-07</date>
+        <rev>2.01</rev>
+        <date>2021-03-10</date>
         <source>diyBMSv4-Leaf_neg.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -262,6 +262,37 @@
       <tstamp>00000000-0000-0000-0000-00005dfd851f</tstamp>
     </comp>
     <comp ref="R102">
+      <value>CMFB103F3950FANT</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-CMFB103F3950FANT_C51597.pdf</datasheet>
+      <fields>
+        <field name="LCSCStockCode">C51597</field>
+        <field name="PartNumber">CMFB103F3950FANT</field>
+      </fields>
+      <libsource lib="diyBMS-Leaf-rescue" part="Thermistor-Device" description=""/>
+      <property name="LCSCStockCode" value="C51597"/>
+      <property name="PartNumber" value="CMFB103F3950FANT"/>
+      <property name="Sheetname" value="Sheet5DEB9B6E"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
+      <tstamp>00000000-0000-0000-0000-00005dfd8669</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSCStockCode">C17414</field>
+        <field name="PartNumber">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
+      <property name="LCSCStockCode" value="C17414"/>
+      <property name="PartNumber" value="0805W8F1002T5E"/>
+      <property name="Sheetname" value="Sheet5DEB9B6E"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
+      <tstamp>00000000-0000-0000-0000-00005dfd866f</tstamp>
+    </comp>
+    <comp ref="R104">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -276,7 +307,7 @@
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
       <tstamp>00000000-0000-0000-0000-00005dfd8561</tstamp>
     </comp>
-    <comp ref="R103">
+    <comp ref="R105">
       <value>6.8K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -291,7 +322,7 @@
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
       <tstamp>00000000-0000-0000-0000-00005dfd857e</tstamp>
     </comp>
-    <comp ref="R104">
+    <comp ref="R106">
       <value>2.7K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -306,188 +337,7 @@
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
       <tstamp>00000000-0000-0000-0000-00005dfd8584</tstamp>
     </comp>
-    <comp ref="R106">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>a543ba33-b251-404f-8ac5-04c5bc78f944</tstamp>
-    </comp>
     <comp ref="R107">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>dbf5c654-d59b-4c42-b5dc-e1adb263c1b1</tstamp>
-    </comp>
-    <comp ref="R108">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>fb0bb8c6-1f72-4bd2-9265-5f30128a1051</tstamp>
-    </comp>
-    <comp ref="R109">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>33f933f4-eb3c-4609-a163-93f782fd8eb9</tstamp>
-    </comp>
-    <comp ref="R110">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>0dd4528c-6b45-4b45-86e2-078e3dcc6d44</tstamp>
-    </comp>
-    <comp ref="R111">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>5e7bd065-530e-4e09-bcee-f07b59c4dc53</tstamp>
-    </comp>
-    <comp ref="R112">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>abfa5326-2d3e-4544-ae8f-dc2edae1a8cb</tstamp>
-    </comp>
-    <comp ref="R113">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>c30a3a1d-5af2-470b-a1e4-be901e8629f2</tstamp>
-    </comp>
-    <comp ref="R114">
-      <value>510R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSCStockCode">C17734</field>
-        <field name="PartNumber">0805W8F5100T5E</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
-      <property name="LCSCStockCode" value="C17734"/>
-      <property name="PartNumber" value="0805W8F5100T5E"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>00000000-0000-0000-0000-00005dfd86b2</tstamp>
-    </comp>
-    <comp ref="R115">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSCStockCode">C17414</field>
-        <field name="PartNumber">0805W8F1002T5E</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
-      <property name="LCSCStockCode" value="C17414"/>
-      <property name="PartNumber" value="0805W8F1002T5E"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>00000000-0000-0000-0000-00005dfd85fd</tstamp>
-    </comp>
-    <comp ref="R117">
-      <value>2K2</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSCStockCode">C17520</field>
-        <field name="PartNumber">0805W8F2201T5E</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
-      <property name="LCSCStockCode" value="C17520"/>
-      <property name="PartNumber" value="0805W8F2201T5E"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>00000000-0000-0000-0000-00005dfd8647</tstamp>
-    </comp>
-    <comp ref="R118">
       <value>2K2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -504,38 +354,7 @@
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
       <tstamp>00000000-0000-0000-0000-00005dfd86d4</tstamp>
     </comp>
-    <comp ref="R119">
-      <value>CMFB103F3950FANT</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-CMFB103F3950FANT_C51597.pdf</datasheet>
-      <fields>
-        <field name="LCSCStockCode">C51597</field>
-        <field name="PartNumber">CMFB103F3950FANT</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="Thermistor-Device" description=""/>
-      <property name="LCSCStockCode" value="C51597"/>
-      <property name="PartNumber" value="CMFB103F3950FANT"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>00000000-0000-0000-0000-00005dfd8669</tstamp>
-    </comp>
-    <comp ref="R120">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSCStockCode">C17414</field>
-        <field name="PartNumber">0805W8F1002T5E</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
-      <property name="LCSCStockCode" value="C17414"/>
-      <property name="PartNumber" value="0805W8F1002T5E"/>
-      <property name="Sheetname" value="Sheet5DEB9B6E"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>00000000-0000-0000-0000-00005dfd866f</tstamp>
-    </comp>
-    <comp ref="R121">
+    <comp ref="R108">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -550,141 +369,194 @@
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
       <tstamp>36e5a2cb-9b5c-4f57-8eb6-d2cfe2afca02</tstamp>
     </comp>
-    <comp ref="R122">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+    <comp ref="R109">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C17520</field>
+        <field name="PartNumber">0805W8F2201T5E</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
+      <property name="LCSCStockCode" value="C17520"/>
+      <property name="PartNumber" value="0805W8F2201T5E"/>
       <property name="Sheetname" value="Sheet5DEB9B6E"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>4b9bd5bf-6c99-4f36-8016-4bb7adc5949f</tstamp>
+      <tstamp>00000000-0000-0000-0000-00005dfd8647</tstamp>
     </comp>
-    <comp ref="R124">
+    <comp ref="R110">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
       <property name="Sheetname" value="Sheet5DEB9B6E"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>e72a9e03-68ed-46d9-99a2-14ebe6404067</tstamp>
+      <tstamp>fb0bb8c6-1f72-4bd2-9265-5f30128a1051</tstamp>
     </comp>
-    <comp ref="R125">
+    <comp ref="R111">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
       <property name="Sheetname" value="Sheet5DEB9B6E"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>7434bc3b-47b5-4cf5-a444-efc1a8c44e53</tstamp>
+      <tstamp>1fafc229-c512-4ba6-9e4f-b58736eda20a</tstamp>
     </comp>
-    <comp ref="R126">
+    <comp ref="R112">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
       <property name="Sheetname" value="Sheet5DEB9B6E"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>fd85721d-a72a-41bd-9036-14cae08a06c6</tstamp>
+      <tstamp>0f92a8ea-4b0a-4484-86dd-258dd38d5f0b</tstamp>
     </comp>
-    <comp ref="R127">
+    <comp ref="R113">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
       <property name="Sheetname" value="Sheet5DEB9B6E"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>b93eb832-4792-45bd-9c1c-23c0b021736f</tstamp>
+      <tstamp>10ecfd72-23d4-4aa4-82d1-b210053964d5</tstamp>
     </comp>
-    <comp ref="R128">
+    <comp ref="R114">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
       <property name="Sheetname" value="Sheet5DEB9B6E"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>79e5dcca-1a2a-421b-85a7-1886d80d8031</tstamp>
+      <tstamp>71b5546c-8e9e-4fef-b447-263b0c5d12b4</tstamp>
     </comp>
-    <comp ref="R129">
+    <comp ref="R115">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
       <property name="Sheetname" value="Sheet5DEB9B6E"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>f2d0a43b-0176-47e9-992c-295c570ad6ec</tstamp>
+      <tstamp>f45f78f9-4e12-405e-96f5-506d87101687</tstamp>
     </comp>
-    <comp ref="R130">
+    <comp ref="R116">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
       <property name="Sheetname" value="Sheet5DEB9B6E"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
-      <tstamp>688d4f79-380a-4640-a9c2-de465a0d0993</tstamp>
+      <tstamp>cc33376c-07c2-469a-a9b8-369e5bb61597</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>3.3OHM 3/4W</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
+      <fields>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
+      <property name="Sheetname" value="Sheet5DEB9B6E"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
+      <tstamp>50a4cc73-5a11-419b-80ad-6d78b506e53e</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>3.3OHM 3/4W</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
+      <fields>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value=""/>
+      <property name="Sheetname" value="Sheet5DEB9B6E"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
+      <tstamp>f9ad3f57-f414-4f5d-a990-a5319699a1d5</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>510R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSCStockCode">C17734</field>
+        <field name="PartNumber">0805W8F5100T5E</field>
+      </fields>
+      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
+      <property name="LCSCStockCode" value="C17734"/>
+      <property name="PartNumber" value="0805W8F5100T5E"/>
+      <property name="Sheetname" value="Sheet5DEB9B6E"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
+      <tstamp>00000000-0000-0000-0000-00005dfd86b2</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSCStockCode">C17414</field>
+        <field name="PartNumber">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
+      <property name="LCSCStockCode" value="C17414"/>
+      <property name="PartNumber" value="0805W8F1002T5E"/>
+      <property name="Sheetname" value="Sheet5DEB9B6E"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_pos.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9B6E/" tstamps="/00000000-0000-0000-0000-00005deb9b6f/"/>
+      <tstamp>00000000-0000-0000-0000-00005dfd85fd</tstamp>
     </comp>
     <comp ref="Y101">
       <value>8MHZ Ceramic Resonator</value>
@@ -764,7 +636,7 @@
       <sheetpath names="/Power and Comm/" tstamps="/00000000-0000-0000-0000-00005df129fb/"/>
       <tstamp>9e59f32b-ff9e-45c5-bec3-db53827cc866</tstamp>
     </comp>
-    <comp ref="R105">
+    <comp ref="R121">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -777,7 +649,7 @@
       <sheetpath names="/Power and Comm/" tstamps="/00000000-0000-0000-0000-00005df129fb/"/>
       <tstamp>00000000-0000-0000-0000-00005df39b25</tstamp>
     </comp>
-    <comp ref="R116">
+    <comp ref="R122">
       <value>4K7</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -794,7 +666,7 @@
       <sheetpath names="/Power and Comm/" tstamps="/00000000-0000-0000-0000-00005df129fb/"/>
       <tstamp>00000000-0000-0000-0000-00005df39b48</tstamp>
     </comp>
-    <comp ref="R205">
+    <comp ref="R221">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -807,7 +679,7 @@
       <sheetpath names="/Power and Comm/" tstamps="/00000000-0000-0000-0000-00005df129fb/"/>
       <tstamp>c6e1d66f-3a84-48f5-906d-dcb1111d9ee3</tstamp>
     </comp>
-    <comp ref="R216">
+    <comp ref="R222">
       <value>4K7</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -1064,6 +936,37 @@
       <tstamp>a5044ace-0bba-4ea3-b063-9b0b022fc9ec</tstamp>
     </comp>
     <comp ref="R202">
+      <value>CMFB103F3950FANT</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-CMFB103F3950FANT_C51597.pdf</datasheet>
+      <fields>
+        <field name="LCSCStockCode">C51597</field>
+        <field name="PartNumber">CMFB103F3950FANT</field>
+      </fields>
+      <libsource lib="diyBMS-Leaf-rescue" part="Thermistor-Device" description=""/>
+      <property name="LCSCStockCode" value="C51597"/>
+      <property name="PartNumber" value="CMFB103F3950FANT"/>
+      <property name="Sheetname" value="Sheet5DEB9BAA"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
+      <tstamp>210844d1-3b82-431d-bb31-ea839debf338</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSCStockCode">C17414</field>
+        <field name="PartNumber">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
+      <property name="LCSCStockCode" value="C17414"/>
+      <property name="PartNumber" value="0805W8F1002T5E"/>
+      <property name="Sheetname" value="Sheet5DEB9BAA"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
+      <tstamp>b1593ad7-af60-475b-960b-6bdc08293a2e</tstamp>
+    </comp>
+    <comp ref="R204">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -1078,7 +981,7 @@
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
       <tstamp>243b0089-30ad-4297-90fc-002d92fdc9a3</tstamp>
     </comp>
-    <comp ref="R203">
+    <comp ref="R205">
       <value>6.8K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -1093,7 +996,7 @@
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
       <tstamp>51df74be-fba8-4944-aff7-ce33e93ecf1b</tstamp>
     </comp>
-    <comp ref="R204">
+    <comp ref="R206">
       <value>2.7K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -1108,188 +1011,7 @@
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
       <tstamp>1c4989e5-6fd7-4258-b972-bc19ed29313d</tstamp>
     </comp>
-    <comp ref="R206">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>f93068a7-1345-4af5-8e32-9485b1857748</tstamp>
-    </comp>
     <comp ref="R207">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>02b33bbe-8da1-4ae8-bbf2-1449d5fab97b</tstamp>
-    </comp>
-    <comp ref="R208">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>f5e035ff-ba7c-4ecf-9d45-80ebac60f6f6</tstamp>
-    </comp>
-    <comp ref="R209">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>6f7e0669-c914-43b6-bf26-f74ec55f4b3b</tstamp>
-    </comp>
-    <comp ref="R210">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>bfd39f5f-f409-4d23-8f3c-c2d4ddb9c59f</tstamp>
-    </comp>
-    <comp ref="R211">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>4f56f159-116f-43e4-a376-a3e67e780095</tstamp>
-    </comp>
-    <comp ref="R212">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>0ce21d7d-1ea0-403d-9035-77225b69f429</tstamp>
-    </comp>
-    <comp ref="R213">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
-      <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>44bf2629-3510-447f-9ea0-7b3049bf8003</tstamp>
-    </comp>
-    <comp ref="R214">
-      <value>510R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSCStockCode">C17734</field>
-        <field name="PartNumber">0805W8F5100T5E</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
-      <property name="LCSCStockCode" value="C17734"/>
-      <property name="PartNumber" value="0805W8F5100T5E"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>1acd25b7-e613-4117-aa11-37603e35da7c</tstamp>
-    </comp>
-    <comp ref="R215">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSCStockCode">C17414</field>
-        <field name="PartNumber">0805W8F1002T5E</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
-      <property name="LCSCStockCode" value="C17414"/>
-      <property name="PartNumber" value="0805W8F1002T5E"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>48613ae9-a107-4d22-add8-cb21e0a76959</tstamp>
-    </comp>
-    <comp ref="R217">
-      <value>2K2</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSCStockCode">C17520</field>
-        <field name="PartNumber">0805W8F2201T5E</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
-      <property name="LCSCStockCode" value="C17520"/>
-      <property name="PartNumber" value="0805W8F2201T5E"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>101d4595-e21e-48a5-b484-85cd57187d58</tstamp>
-    </comp>
-    <comp ref="R218">
       <value>2K2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -1306,38 +1028,7 @@
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
       <tstamp>8d8469f6-bc25-4abd-a3eb-b9037a766fd9</tstamp>
     </comp>
-    <comp ref="R219">
-      <value>CMFB103F3950FANT</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-CMFB103F3950FANT_C51597.pdf</datasheet>
-      <fields>
-        <field name="LCSCStockCode">C51597</field>
-        <field name="PartNumber">CMFB103F3950FANT</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="Thermistor-Device" description=""/>
-      <property name="LCSCStockCode" value="C51597"/>
-      <property name="PartNumber" value="CMFB103F3950FANT"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>210844d1-3b82-431d-bb31-ea839debf338</tstamp>
-    </comp>
-    <comp ref="R220">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSCStockCode">C17414</field>
-        <field name="PartNumber">0805W8F1002T5E</field>
-      </fields>
-      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
-      <property name="LCSCStockCode" value="C17414"/>
-      <property name="PartNumber" value="0805W8F1002T5E"/>
-      <property name="Sheetname" value="Sheet5DEB9BAA"/>
-      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
-      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>b1593ad7-af60-475b-960b-6bdc08293a2e</tstamp>
-    </comp>
-    <comp ref="R221">
+    <comp ref="R208">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
@@ -1352,141 +1043,203 @@
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
       <tstamp>98de0100-a9d5-411c-bacc-86bb19fd1f92</tstamp>
     </comp>
-    <comp ref="R222">
-      <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+    <comp ref="R209">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C17520</field>
+        <field name="PartNumber">0805W8F2201T5E</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
-      <property name="JLCPCBRotation" value="0"/>
+      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
+      <property name="LCSCStockCode" value="C17520"/>
+      <property name="PartNumber" value="0805W8F2201T5E"/>
       <property name="Sheetname" value="Sheet5DEB9BAA"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>5daf57db-995f-4cfc-9b41-d114dd8956c1</tstamp>
+      <tstamp>101d4595-e21e-48a5-b484-85cd57187d58</tstamp>
     </comp>
-    <comp ref="R224">
+    <comp ref="R210">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
         <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
       <property name="JLCPCBRotation" value="0"/>
       <property name="Sheetname" value="Sheet5DEB9BAA"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>e7d3c550-cd4b-4e7e-8d8a-860e4161deeb</tstamp>
+      <tstamp>f5e035ff-ba7c-4ecf-9d45-80ebac60f6f6</tstamp>
     </comp>
-    <comp ref="R225">
+    <comp ref="R211">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
         <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
       <property name="JLCPCBRotation" value="0"/>
       <property name="Sheetname" value="Sheet5DEB9BAA"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>7993ce3f-fc64-4f50-9da3-95cdaaab9d03</tstamp>
+      <tstamp>0fceda4f-1118-4ab9-86f2-3ea005b02cb4</tstamp>
     </comp>
-    <comp ref="R226">
+    <comp ref="R212">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
         <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
       <property name="JLCPCBRotation" value="0"/>
       <property name="Sheetname" value="Sheet5DEB9BAA"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>3f5427bc-a322-4c72-ad0c-89121c0e1e78</tstamp>
+      <tstamp>bbd19ce6-6a9d-4b3c-96db-5cd84399c91d</tstamp>
     </comp>
-    <comp ref="R227">
+    <comp ref="R213">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
         <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
       <property name="JLCPCBRotation" value="0"/>
       <property name="Sheetname" value="Sheet5DEB9BAA"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>0b882903-745a-417e-bad7-22af51d422ad</tstamp>
+      <tstamp>dad89b6c-797e-49fe-b424-781b51479bb1</tstamp>
     </comp>
-    <comp ref="R228">
+    <comp ref="R214">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
         <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
       <property name="JLCPCBRotation" value="0"/>
       <property name="Sheetname" value="Sheet5DEB9BAA"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>55951272-2da9-4725-8258-c4aa33345926</tstamp>
+      <tstamp>c1b53a9d-3ac7-4e54-854e-4a73cc18ce48</tstamp>
     </comp>
-    <comp ref="R229">
+    <comp ref="R215">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
         <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
       <property name="JLCPCBRotation" value="0"/>
       <property name="Sheetname" value="Sheet5DEB9BAA"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>41931032-6b6f-4caf-b530-9ecb587b8aa0</tstamp>
+      <tstamp>c30ad85b-2092-4d0a-8e9b-b335139cb7db</tstamp>
     </comp>
-    <comp ref="R230">
+    <comp ref="R216">
       <value>3.3OHM 3/4W</value>
-      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <fields>
         <field name="JLCPCBRotation">0</field>
-        <field name="LCSCStockCode">C21624</field>
-        <field name="PartNumber">1210W3F330KT5E</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSCStockCode" value="C21624"/>
-      <property name="PartNumber" value="1210W3F330KT5E"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
       <property name="JLCPCBRotation" value="0"/>
       <property name="Sheetname" value="Sheet5DEB9BAA"/>
       <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
       <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
-      <tstamp>50e83552-8301-4d97-bdad-27509ed17522</tstamp>
+      <tstamp>ae1cca68-1038-44ce-b693-029c475d5ae3</tstamp>
+    </comp>
+    <comp ref="R217">
+      <value>3.3OHM 3/4W</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
+      <fields>
+        <field name="JLCPCBRotation">0</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value="0"/>
+      <property name="Sheetname" value="Sheet5DEB9BAA"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
+      <tstamp>7c0fd9da-0d01-4cf5-a03f-8979d1aff16c</tstamp>
+    </comp>
+    <comp ref="R218">
+      <value>3.3OHM 3/4W</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
+      <fields>
+        <field name="JLCPCBRotation">0</field>
+        <field name="LCSCStockCode">C270971</field>
+        <field name="PartNumber">201007F330KT4E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSCStockCode" value="C270971"/>
+      <property name="PartNumber" value="201007F330KT4E"/>
+      <property name="JLCPCBRotation" value="0"/>
+      <property name="Sheetname" value="Sheet5DEB9BAA"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
+      <tstamp>d3d59463-5759-458b-b2fa-68717cd8b875</tstamp>
+    </comp>
+    <comp ref="R219">
+      <value>510R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSCStockCode">C17734</field>
+        <field name="PartNumber">0805W8F5100T5E</field>
+      </fields>
+      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
+      <property name="LCSCStockCode" value="C17734"/>
+      <property name="PartNumber" value="0805W8F5100T5E"/>
+      <property name="Sheetname" value="Sheet5DEB9BAA"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
+      <tstamp>1acd25b7-e613-4117-aa11-37603e35da7c</tstamp>
+    </comp>
+    <comp ref="R220">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSCStockCode">C17414</field>
+        <field name="PartNumber">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="diyBMS-Leaf-rescue" part="R-Device" description=""/>
+      <property name="LCSCStockCode" value="C17414"/>
+      <property name="PartNumber" value="0805W8F1002T5E"/>
+      <property name="Sheetname" value="Sheet5DEB9BAA"/>
+      <property name="Sheetfile" value="diyBMSv4-Leaf_neg.kicad_sch"/>
+      <sheetpath names="/Sheet5DEB9BAA/" tstamps="/00000000-0000-0000-0000-00005deb9bab/"/>
+      <tstamp>48613ae9-a107-4d22-add8-cb21e0a76959</tstamp>
     </comp>
     <comp ref="Y201">
       <value>8MHZ Ceramic Resonator</value>
@@ -1759,9 +1512,6 @@
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
-    <library logical="diyBMS-Leaf-rescue">
-      <uri>C:\Users\allan\Dropbox\NZ\BMS\diyBMSv4Leaf-master/diyBMS-Leaf-rescue.lib</uri>
-    </library>
   </libraries>
   <nets>
     <net code="1" name="+VDC">
@@ -1773,10 +1523,9 @@
       <node ref="F100" pin="1" pintype="passive"/>
       <node ref="J102" pin="2" pinfunction="VCC" pintype="passive"/>
       <node ref="R101" pin="1" pintype="passive"/>
-      <node ref="R106" pin="1" pintype="passive"/>
-      <node ref="R107" pin="1" pintype="passive"/>
-      <node ref="R122" pin="1" pintype="passive"/>
-      <node ref="R124" pin="1" pintype="passive"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="R113" pin="1" pintype="passive"/>
+      <node ref="R116" pin="1" pintype="passive"/>
       <node ref="U4" pin="4" pintype="passive"/>
     </net>
     <net code="2" name="-VDC">
@@ -1790,31 +1539,31 @@
       <node ref="F200" pin="2" pintype="passive"/>
       <node ref="J202" pin="6" pinfunction="GND" pintype="passive"/>
       <node ref="Q201" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R204" pin="2" pintype="passive"/>
-      <node ref="R215" pin="2" pintype="passive"/>
-      <node ref="R216" pin="1" pintype="passive"/>
-      <node ref="R218" pin="1" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="R206" pin="2" pintype="passive"/>
+      <node ref="R207" pin="1" pintype="passive"/>
+      <node ref="R208" pin="2" pintype="passive"/>
       <node ref="R220" pin="2" pintype="passive"/>
-      <node ref="R221" pin="2" pintype="passive"/>
+      <node ref="R222" pin="1" pintype="passive"/>
       <node ref="U4" pin="2" pintype="passive"/>
     </net>
     <net code="3" name="DUMP_LOAD_ENABLE1">
       <node ref="ATTINY841-1" pin="5" pinfunction="PB2" pintype="bidirectional"/>
-      <node ref="R114" pin="2" pintype="passive"/>
+      <node ref="R119" pin="2" pintype="passive"/>
     </net>
     <net code="4" name="DUMP_LOAD_ENABLE2">
       <node ref="ATTINY841-2" pin="5" pinfunction="PB2" pintype="bidirectional"/>
-      <node ref="R214" pin="2" pintype="passive"/>
+      <node ref="R219" pin="2" pintype="passive"/>
     </net>
     <net code="5" name="ENABLE1">
       <node ref="ATTINY841-1" pin="6" pinfunction="PA7" pintype="bidirectional"/>
-      <node ref="R102" pin="1" pintype="passive"/>
-      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="R105" pin="1" pintype="passive"/>
     </net>
     <net code="6" name="ENABLE2">
       <node ref="ATTINY841-2" pin="6" pinfunction="PA7" pintype="bidirectional"/>
-      <node ref="R202" pin="1" pintype="passive"/>
-      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="R205" pin="1" pintype="passive"/>
     </net>
     <net code="7" name="GND">
       <node ref="ATTINY841-1" pin="14" pinfunction="GND" pintype="power_in"/>
@@ -1832,17 +1581,16 @@
       <node ref="J102" pin="6" pinfunction="GND" pintype="passive"/>
       <node ref="J202" pin="2" pinfunction="VCC" pintype="passive"/>
       <node ref="Q101" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R104" pin="2" pintype="passive"/>
-      <node ref="R115" pin="2" pintype="passive"/>
-      <node ref="R116" pin="1" pintype="passive"/>
-      <node ref="R118" pin="1" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
       <node ref="R120" pin="2" pintype="passive"/>
-      <node ref="R121" pin="2" pintype="passive"/>
+      <node ref="R122" pin="1" pintype="passive"/>
       <node ref="R201" pin="1" pintype="passive"/>
-      <node ref="R206" pin="1" pintype="passive"/>
-      <node ref="R207" pin="1" pintype="passive"/>
-      <node ref="R222" pin="1" pintype="passive"/>
-      <node ref="R224" pin="1" pintype="passive"/>
+      <node ref="R210" pin="1" pintype="passive"/>
+      <node ref="R213" pin="1" pintype="passive"/>
+      <node ref="R216" pin="1" pintype="passive"/>
       <node ref="RX1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U2" pin="2" pintype="passive"/>
     </net>
@@ -1850,13 +1598,13 @@
       <node ref="ATTINY841-1" pin="8" pinfunction="PA5" pintype="bidirectional"/>
       <node ref="EXT_TEMP_1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J102" pin="1" pinfunction="MISO" pintype="passive"/>
-      <node ref="R121" pin="1" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
     </net>
     <net code="9" name="MISO2">
       <node ref="ATTINY841-2" pin="8" pinfunction="PA5" pintype="bidirectional"/>
       <node ref="EXT_TEMP_2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J202" pin="1" pinfunction="MISO" pintype="passive"/>
-      <node ref="R221" pin="1" pintype="passive"/>
+      <node ref="R208" pin="1" pintype="passive"/>
     </net>
     <net code="10" name="Net-(+POS1-Pad1)">
       <node ref="F100" pin="2" pintype="passive"/>
@@ -1886,8 +1634,8 @@
     </net>
     <net code="16" name="Net-(ATTINY841-1-Pad10)">
       <node ref="ATTINY841-1" pin="10" pinfunction="PA3" pintype="bidirectional"/>
-      <node ref="R103" pin="2" pintype="passive"/>
-      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
     </net>
     <net code="17" name="Net-(ATTINY841-2-Pad2)">
       <node ref="ATTINY841-2" pin="2" pinfunction="XTAL1/PB0" pintype="bidirectional"/>
@@ -1911,172 +1659,142 @@
     </net>
     <net code="21" name="Net-(ATTINY841-2-Pad10)">
       <node ref="ATTINY841-2" pin="10" pinfunction="PA3" pintype="bidirectional"/>
-      <node ref="R203" pin="2" pintype="passive"/>
-      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="R206" pin="1" pintype="passive"/>
     </net>
     <net code="22" name="Net-(D103-Pad1)">
       <node ref="D103" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R117" pin="2" pintype="passive"/>
+      <node ref="R109" pin="2" pintype="passive"/>
     </net>
     <net code="23" name="Net-(D104-Pad1)">
       <node ref="D104" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R118" pin="2" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
     </net>
     <net code="24" name="Net-(D203-Pad1)">
       <node ref="D203" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R217" pin="2" pintype="passive"/>
+      <node ref="R209" pin="2" pintype="passive"/>
     </net>
     <net code="25" name="Net-(D204-Pad1)">
       <node ref="D204" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R218" pin="2" pintype="passive"/>
+      <node ref="R207" pin="2" pintype="passive"/>
     </net>
     <net code="26" name="Net-(Q101-Pad1)">
       <node ref="Q101" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R114" pin="1" pintype="passive"/>
-      <node ref="R115" pin="1" pintype="passive"/>
+      <node ref="R119" pin="1" pintype="passive"/>
+      <node ref="R120" pin="1" pintype="passive"/>
     </net>
     <net code="27" name="Net-(Q101-Pad3)">
       <node ref="Q101" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
       <node ref="R112" pin="2" pintype="passive"/>
-      <node ref="R113" pin="2" pintype="passive"/>
-      <node ref="R117" pin="1" pintype="passive"/>
-      <node ref="R129" pin="2" pintype="passive"/>
-      <node ref="R130" pin="2" pintype="passive"/>
+      <node ref="R115" pin="2" pintype="passive"/>
+      <node ref="R118" pin="2" pintype="passive"/>
     </net>
     <net code="28" name="Net-(Q201-Pad1)">
       <node ref="Q201" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R214" pin="1" pintype="passive"/>
-      <node ref="R215" pin="1" pintype="passive"/>
+      <node ref="R219" pin="1" pintype="passive"/>
+      <node ref="R220" pin="1" pintype="passive"/>
     </net>
     <net code="29" name="Net-(Q201-Pad3)">
       <node ref="Q201" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R209" pin="1" pintype="passive"/>
       <node ref="R212" pin="2" pintype="passive"/>
-      <node ref="R213" pin="2" pintype="passive"/>
-      <node ref="R217" pin="1" pintype="passive"/>
-      <node ref="R229" pin="2" pintype="passive"/>
-      <node ref="R230" pin="2" pintype="passive"/>
+      <node ref="R215" pin="2" pintype="passive"/>
+      <node ref="R218" pin="2" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(R105-Pad1)">
-      <node ref="R105" pin="1" pintype="passive"/>
-      <node ref="U2" pin="1" pintype="passive"/>
-    </net>
-    <net code="31" name="Net-(R106-Pad2)">
-      <node ref="R106" pin="2" pintype="passive"/>
-      <node ref="R107" pin="2" pintype="passive"/>
-      <node ref="R108" pin="1" pintype="passive"/>
-      <node ref="R109" pin="1" pintype="passive"/>
-      <node ref="R122" pin="2" pintype="passive"/>
-      <node ref="R124" pin="2" pintype="passive"/>
-      <node ref="R125" pin="1" pintype="passive"/>
-      <node ref="R126" pin="1" pintype="passive"/>
-    </net>
-    <net code="32" name="Net-(R108-Pad2)">
-      <node ref="R108" pin="2" pintype="passive"/>
-      <node ref="R109" pin="2" pintype="passive"/>
-      <node ref="R110" pin="1" pintype="passive"/>
-      <node ref="R111" pin="1" pintype="passive"/>
-      <node ref="R125" pin="2" pintype="passive"/>
-      <node ref="R126" pin="2" pintype="passive"/>
-      <node ref="R127" pin="1" pintype="passive"/>
-      <node ref="R128" pin="1" pintype="passive"/>
-    </net>
-    <net code="33" name="Net-(R110-Pad2)">
+    <net code="30" name="Net-(R110-Pad2)">
       <node ref="R110" pin="2" pintype="passive"/>
+      <node ref="R111" pin="1" pintype="passive"/>
+      <node ref="R113" pin="2" pintype="passive"/>
+      <node ref="R114" pin="1" pintype="passive"/>
+      <node ref="R116" pin="2" pintype="passive"/>
+      <node ref="R117" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(R111-Pad2)">
       <node ref="R111" pin="2" pintype="passive"/>
       <node ref="R112" pin="1" pintype="passive"/>
-      <node ref="R113" pin="1" pintype="passive"/>
-      <node ref="R127" pin="2" pintype="passive"/>
-      <node ref="R128" pin="2" pintype="passive"/>
-      <node ref="R129" pin="1" pintype="passive"/>
-      <node ref="R130" pin="1" pintype="passive"/>
+      <node ref="R114" pin="2" pintype="passive"/>
+      <node ref="R115" pin="1" pintype="passive"/>
+      <node ref="R117" pin="2" pintype="passive"/>
+      <node ref="R118" pin="1" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(R205-Pad2)">
-      <node ref="R205" pin="2" pintype="passive"/>
-      <node ref="U4" pin="1" pintype="passive"/>
+    <net code="32" name="Net-(R121-Pad1)">
+      <node ref="R121" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(R206-Pad2)">
-      <node ref="R206" pin="2" pintype="passive"/>
-      <node ref="R207" pin="2" pintype="passive"/>
-      <node ref="R208" pin="1" pintype="passive"/>
-      <node ref="R209" pin="1" pintype="passive"/>
-      <node ref="R222" pin="2" pintype="passive"/>
-      <node ref="R224" pin="2" pintype="passive"/>
-      <node ref="R225" pin="1" pintype="passive"/>
-      <node ref="R226" pin="1" pintype="passive"/>
-    </net>
-    <net code="36" name="Net-(R208-Pad2)">
-      <node ref="R208" pin="2" pintype="passive"/>
-      <node ref="R209" pin="2" pintype="passive"/>
-      <node ref="R210" pin="1" pintype="passive"/>
-      <node ref="R211" pin="1" pintype="passive"/>
-      <node ref="R225" pin="2" pintype="passive"/>
-      <node ref="R226" pin="2" pintype="passive"/>
-      <node ref="R227" pin="1" pintype="passive"/>
-      <node ref="R228" pin="1" pintype="passive"/>
-    </net>
-    <net code="37" name="Net-(R210-Pad2)">
+    <net code="33" name="Net-(R210-Pad2)">
       <node ref="R210" pin="2" pintype="passive"/>
+      <node ref="R211" pin="1" pintype="passive"/>
+      <node ref="R213" pin="2" pintype="passive"/>
+      <node ref="R214" pin="1" pintype="passive"/>
+      <node ref="R216" pin="2" pintype="passive"/>
+      <node ref="R217" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(R211-Pad2)">
       <node ref="R211" pin="2" pintype="passive"/>
       <node ref="R212" pin="1" pintype="passive"/>
-      <node ref="R213" pin="1" pintype="passive"/>
-      <node ref="R227" pin="2" pintype="passive"/>
-      <node ref="R228" pin="2" pintype="passive"/>
-      <node ref="R229" pin="1" pintype="passive"/>
-      <node ref="R230" pin="1" pintype="passive"/>
+      <node ref="R214" pin="2" pintype="passive"/>
+      <node ref="R215" pin="1" pintype="passive"/>
+      <node ref="R217" pin="2" pintype="passive"/>
+      <node ref="R218" pin="1" pintype="passive"/>
     </net>
-    <net code="38" name="Net-(TX1-Pad1)">
+    <net code="35" name="Net-(R221-Pad2)">
+      <node ref="R221" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(TX1-Pad1)">
       <node ref="TX1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U2" pin="3" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(TX1-Pad2)">
+    <net code="37" name="Net-(TX1-Pad2)">
       <node ref="TX1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U2" pin="4" pintype="passive"/>
     </net>
-    <net code="40" name="RXD1">
+    <net code="38" name="RXD1">
       <node ref="ATTINY841-1" pin="11" pinfunction="PA2" pintype="bidirectional"/>
-      <node ref="R116" pin="2" pintype="passive"/>
+      <node ref="R122" pin="2" pintype="passive"/>
       <node ref="U4" pin="3" pintype="passive"/>
     </net>
-    <net code="41" name="RXD2">
+    <net code="39" name="RXD2">
       <node ref="ATTINY841-2" pin="11" pinfunction="PA2" pintype="bidirectional"/>
-      <node ref="R216" pin="2" pintype="passive"/>
+      <node ref="R222" pin="2" pintype="passive"/>
       <node ref="RX1" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="42" name="SCK1">
+    <net code="40" name="SCK1">
       <node ref="ATTINY841-1" pin="9" pinfunction="PA4" pintype="bidirectional"/>
       <node ref="J102" pin="3" pinfunction="SCK" pintype="passive"/>
-      <node ref="R119" pin="2" pintype="passive"/>
-      <node ref="R120" pin="1" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
     </net>
-    <net code="43" name="SCK2">
+    <net code="41" name="SCK2">
       <node ref="ATTINY841-2" pin="9" pinfunction="PA4" pintype="bidirectional"/>
       <node ref="J202" pin="3" pinfunction="SCK" pintype="passive"/>
-      <node ref="R219" pin="2" pintype="passive"/>
-      <node ref="R220" pin="1" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
     </net>
-    <net code="44" name="TXD1">
+    <net code="42" name="TXD1">
       <node ref="ATTINY841-1" pin="12" pinfunction="PA1" pintype="bidirectional"/>
-      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="R121" pin="2" pintype="passive"/>
     </net>
-    <net code="45" name="TXD2">
+    <net code="43" name="TXD2">
       <node ref="ATTINY841-2" pin="12" pinfunction="PA1" pintype="bidirectional"/>
-      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="R221" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="VREF1">
+    <net code="44" name="VREF1">
       <node ref="ATTINY841-1" pin="13" pinfunction="AREF/PA0" pintype="bidirectional"/>
       <node ref="D101" pin="1" pinfunction="REF" pintype="passive"/>
       <node ref="D101" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="EXT_TEMP_1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R102" pin="2" pintype="passive"/>
-      <node ref="R119" pin="1" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
     </net>
-    <net code="47" name="VREF2">
+    <net code="45" name="VREF2">
       <node ref="ATTINY841-2" pin="13" pinfunction="AREF/PA0" pintype="bidirectional"/>
       <node ref="D201" pin="1" pinfunction="REF" pintype="passive"/>
       <node ref="D201" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="EXT_TEMP_2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R202" pin="2" pintype="passive"/>
-      <node ref="R219" pin="1" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="R204" pin="2" pintype="passive"/>
     </net>
   </nets>
 </export>

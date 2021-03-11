@@ -4,8 +4,8 @@
 
   (title_block
     (title "diyBMSv4 - LEAF")
-    (date "2021-03-07")
-    (rev "2.00")
+    (date "2021-03-10")
+    (rev "2.01")
     (company "Joho Technology Inc")
   )
 
@@ -135,83 +135,62 @@
     (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd851f"
       (reference "R101") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd8561"
-      (reference "R102") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd857e"
-      (reference "R103") (unit 1) (value "6.8K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd8584"
-      (reference "R104") (unit 1) (value "2.7K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/a543ba33-b251-404f-8ac5-04c5bc78f944"
-      (reference "R106") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/dbf5c654-d59b-4c42-b5dc-e1adb263c1b1"
-      (reference "R107") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/fb0bb8c6-1f72-4bd2-9265-5f30128a1051"
-      (reference "R108") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/33f933f4-eb3c-4609-a163-93f782fd8eb9"
-      (reference "R109") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/0dd4528c-6b45-4b45-86e2-078e3dcc6d44"
-      (reference "R110") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/5e7bd065-530e-4e09-bcee-f07b59c4dc53"
-      (reference "R111") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/abfa5326-2d3e-4544-ae8f-dc2edae1a8cb"
-      (reference "R112") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/c30a3a1d-5af2-470b-a1e4-be901e8629f2"
-      (reference "R113") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd86b2"
-      (reference "R114") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd85fd"
-      (reference "R115") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd8647"
-      (reference "R117") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd86d4"
-      (reference "R118") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd8669"
-      (reference "R119") (unit 1) (value "CMFB103F3950FANT") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R102") (unit 1) (value "CMFB103F3950FANT") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd866f"
-      (reference "R120") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R103") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd8561"
+      (reference "R104") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd857e"
+      (reference "R105") (unit 1) (value "6.8K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd8584"
+      (reference "R106") (unit 1) (value "2.7K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd86d4"
+      (reference "R107") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005deb9b6f/36e5a2cb-9b5c-4f57-8eb6-d2cfe2afca02"
-      (reference "R121") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R108") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/4b9bd5bf-6c99-4f36-8016-4bb7adc5949f"
-      (reference "R122") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd8647"
+      (reference "R109") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/e72a9e03-68ed-46d9-99a2-14ebe6404067"
-      (reference "R124") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9b6f/fb0bb8c6-1f72-4bd2-9265-5f30128a1051"
+      (reference "R110") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/7434bc3b-47b5-4cf5-a444-efc1a8c44e53"
-      (reference "R125") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9b6f/1fafc229-c512-4ba6-9e4f-b58736eda20a"
+      (reference "R111") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/fd85721d-a72a-41bd-9036-14cae08a06c6"
-      (reference "R126") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9b6f/0f92a8ea-4b0a-4484-86dd-258dd38d5f0b"
+      (reference "R112") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/b93eb832-4792-45bd-9c1c-23c0b021736f"
-      (reference "R127") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9b6f/10ecfd72-23d4-4aa4-82d1-b210053964d5"
+      (reference "R113") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/79e5dcca-1a2a-421b-85a7-1886d80d8031"
-      (reference "R128") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9b6f/71b5546c-8e9e-4fef-b447-263b0c5d12b4"
+      (reference "R114") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/f2d0a43b-0176-47e9-992c-295c570ad6ec"
-      (reference "R129") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9b6f/f45f78f9-4e12-405e-96f5-506d87101687"
+      (reference "R115") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9b6f/688d4f79-380a-4640-a9c2-de465a0d0993"
-      (reference "R130") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9b6f/cc33376c-07c2-469a-a9b8-369e5bb61597"
+      (reference "R116") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9b6f/50a4cc73-5a11-419b-80ad-6d78b506e53e"
+      (reference "R117") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9b6f/f9ad3f57-f414-4f5d-a990-a5319699a1d5"
+      (reference "R118") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd86b2"
+      (reference "R119") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9b6f/00000000-0000-0000-0000-00005dfd85fd"
+      (reference "R120") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005deb9b6f/f5fa735e-9128-4a1e-942b-87ed40b3b337"
       (reference "Y101") (unit 1) (value "8MHZ Ceramic Resonator") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
@@ -271,16 +250,16 @@
       (reference "F200") (unit 1) (value "mSMD150") (footprint "Fuse:Fuse_1812_4532Metric")
     )
     (path "/00000000-0000-0000-0000-00005df129fb/00000000-0000-0000-0000-00005df39b25"
-      (reference "R105") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R121") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005df129fb/00000000-0000-0000-0000-00005df39b48"
-      (reference "R116") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R122") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005df129fb/c6e1d66f-3a84-48f5-906d-dcb1111d9ee3"
-      (reference "R205") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R221") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005df129fb/b524e844-dfc6-4707-a8cb-30fd75c5194b"
-      (reference "R216") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R222") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005df129fb/0aee4134-889f-4ab8-b63a-bf754bb8f214"
       (reference "RX1") (unit 1) (value "B2B-PH-K(LF)(SN)") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
@@ -372,83 +351,62 @@
     (path "/00000000-0000-0000-0000-00005deb9bab/a5044ace-0bba-4ea3-b063-9b0b022fc9ec"
       (reference "R201") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/243b0089-30ad-4297-90fc-002d92fdc9a3"
-      (reference "R202") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/51df74be-fba8-4944-aff7-ce33e93ecf1b"
-      (reference "R203") (unit 1) (value "6.8K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/1c4989e5-6fd7-4258-b972-bc19ed29313d"
-      (reference "R204") (unit 1) (value "2.7K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/f93068a7-1345-4af5-8e32-9485b1857748"
-      (reference "R206") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/02b33bbe-8da1-4ae8-bbf2-1449d5fab97b"
-      (reference "R207") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/f5e035ff-ba7c-4ecf-9d45-80ebac60f6f6"
-      (reference "R208") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/6f7e0669-c914-43b6-bf26-f74ec55f4b3b"
-      (reference "R209") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/bfd39f5f-f409-4d23-8f3c-c2d4ddb9c59f"
-      (reference "R210") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/4f56f159-116f-43e4-a376-a3e67e780095"
-      (reference "R211") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/0ce21d7d-1ea0-403d-9035-77225b69f429"
-      (reference "R212") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/44bf2629-3510-447f-9ea0-7b3049bf8003"
-      (reference "R213") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/1acd25b7-e613-4117-aa11-37603e35da7c"
-      (reference "R214") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/48613ae9-a107-4d22-add8-cb21e0a76959"
-      (reference "R215") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/101d4595-e21e-48a5-b484-85cd57187d58"
-      (reference "R217") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005deb9bab/8d8469f6-bc25-4abd-a3eb-b9037a766fd9"
-      (reference "R218") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/00000000-0000-0000-0000-00005deb9bab/210844d1-3b82-431d-bb31-ea839debf338"
-      (reference "R219") (unit 1) (value "CMFB103F3950FANT") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R202") (unit 1) (value "CMFB103F3950FANT") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005deb9bab/b1593ad7-af60-475b-960b-6bdc08293a2e"
-      (reference "R220") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R203") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9bab/243b0089-30ad-4297-90fc-002d92fdc9a3"
+      (reference "R204") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9bab/51df74be-fba8-4944-aff7-ce33e93ecf1b"
+      (reference "R205") (unit 1) (value "6.8K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9bab/1c4989e5-6fd7-4258-b972-bc19ed29313d"
+      (reference "R206") (unit 1) (value "2.7K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9bab/8d8469f6-bc25-4abd-a3eb-b9037a766fd9"
+      (reference "R207") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005deb9bab/98de0100-a9d5-411c-bacc-86bb19fd1f92"
-      (reference "R221") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R208") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/5daf57db-995f-4cfc-9b41-d114dd8956c1"
-      (reference "R222") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9bab/101d4595-e21e-48a5-b484-85cd57187d58"
+      (reference "R209") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/e7d3c550-cd4b-4e7e-8d8a-860e4161deeb"
-      (reference "R224") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9bab/f5e035ff-ba7c-4ecf-9d45-80ebac60f6f6"
+      (reference "R210") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/7993ce3f-fc64-4f50-9da3-95cdaaab9d03"
-      (reference "R225") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9bab/0fceda4f-1118-4ab9-86f2-3ea005b02cb4"
+      (reference "R211") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/3f5427bc-a322-4c72-ad0c-89121c0e1e78"
-      (reference "R226") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9bab/bbd19ce6-6a9d-4b3c-96db-5cd84399c91d"
+      (reference "R212") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/0b882903-745a-417e-bad7-22af51d422ad"
-      (reference "R227") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9bab/dad89b6c-797e-49fe-b424-781b51479bb1"
+      (reference "R213") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/55951272-2da9-4725-8258-c4aa33345926"
-      (reference "R228") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9bab/c1b53a9d-3ac7-4e54-854e-4a73cc18ce48"
+      (reference "R214") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/41931032-6b6f-4caf-b530-9ecb587b8aa0"
-      (reference "R229") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9bab/c30ad85b-2092-4d0a-8e9b-b335139cb7db"
+      (reference "R215") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
     )
-    (path "/00000000-0000-0000-0000-00005deb9bab/50e83552-8301-4d97-bdad-27509ed17522"
-      (reference "R230") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_1210_3225Metric")
+    (path "/00000000-0000-0000-0000-00005deb9bab/ae1cca68-1038-44ce-b693-029c475d5ae3"
+      (reference "R216") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9bab/7c0fd9da-0d01-4cf5-a03f-8979d1aff16c"
+      (reference "R217") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9bab/d3d59463-5759-458b-b2fa-68717cd8b875"
+      (reference "R218") (unit 1) (value "3.3OHM 3/4W") (footprint "Resistor_SMD:R_2010_5025Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9bab/1acd25b7-e613-4117-aa11-37603e35da7c"
+      (reference "R219") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005deb9bab/48613ae9-a107-4d22-add8-cb21e0a76959"
+      (reference "R220") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005deb9bab/3be7e41b-03d0-4308-892a-4ce7da03061b"
       (reference "Y201") (unit 1) (value "8MHZ Ceramic Resonator") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
